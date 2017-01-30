@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script>
+  function initialize() {
+    var myLatlng = new google.maps.LatLng(42.965672, -85.658748);
+    var mapOptions = {
+      zoom: 16,
+      center: myLatlng
+    }
+    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Central High School'
+    });
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+</head>
+<body>
+  <div id="header">
+    <a href="mailto:firstteam904@gmail.com" target="_blank"><img id="mail_icon" src="logos/email.png" alt="Email"></a>
+    <a href="http://facebook.com/pages/FIRST-Robotics-Team-904/78374201372" target="_blank"><img id="facebook_icon" src="logos/facebook.png" alt="Facebook"></a>
+    <a href="http://twitter.com/firstteam904" target="_blank"><img id="twitter_icon" src="logos/twitter.png" alt="Twitter"></a>
+    <h1 id="team_name">GRPS FIRST Team 904</h1>
+    <h3 id="team_location">Grand Rapids, MI</h3>
+  </div>
+  <header>
+    <div id="nav_bar">
+      <div>
+        <ul id="nav_bar_collapse">X</ul>
+        <ul class="nav_bar_ul">|</ul><ul class="nav_bar_ul"><a href="index.html" class="nav_bar_text">Home</a></ul>
+        <ul class="nav_bar_ul">|</ul><ul class="nav_bar_ul"><a href="first.html" class="nav_bar_text">First</a></ul>
+        <ul class="nav_bar_ul">|</ul><ul class="nav_bar_ul"><a href="about.html" class="nav_bar_text">About</a></ul>
+        <ul class="nav_bar_ul">|</ul><ul class="nav_bar_ul"><a href="mentors.html" class="nav_bar_text">Mentors</a></ul>
+        <ul class="nav_bar_ul">|</ul><ul class="nav_bar_ul"><a href="community.html" class="nav_bar_text">Community</a></ul>
+        <ul class="nav_bar_ul">|</ul><ul class="nav_bar_ul"><a href="contact.html" class="nav_bar_text">Contact</a></ul>
+        <ul class="nav_bar_ul">|</ul>
+      </div>
+    </div>
+  </header>
+  <div id="Contact">
+    <div class="section_header">
+      <h2>Contact Us</h2>
+    </div>
+    <div class="row">
+      <div class="col_md_3">
+        <a href="http://twitter.com/firstteam904" target="_blank"><img src="logos/twitter.png" class="img_circle_3" alt="Twitter"></a>
+      </div>
+      <div class="col_md_3">
+        <a href="http://facebook.com/pages/FIRST-Robotics-Team-904/78374201372" target="_blank"><img src="logos/facebook.png" class="img_circle_3" alt="Facebook"></a>
+      </div>
+      <div class="col_md_3">
+        <a href="mailto:firstteam904@gmail.com" target="_blank"><img src="logos/email.png" class="img_circle_3" alt="Email"></a>
+      </div>
+    </div>
+  </div>
+  <div id="Meeting">
+    <div class="section_header_dark">
+      <h2>Join Us</h2>
+    </div>
+    <div id="row_meetings">
+      <p id="Meeting_about">We meet daily at Central High School in Grand Rapids, MI, from 4pm-8pm.<br>
+        We would love to have you drop by and check us out, but please shoot us an email first! <br>
+    </div>
+  </div>
+  <div id="map-canvas"></div>
+</body>
+</html>

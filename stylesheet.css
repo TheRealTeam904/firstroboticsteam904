@@ -1,0 +1,476 @@
+/*General Text formatting*********************************/
+body{
+  margin: 0;
+  font-family: sans-serif;
+  min-width: 855px;
+}
+h2{
+  font-size: 36px;
+  padding: 30px 0 30px 0;
+  margin: 0;
+}
+h3{
+  font-size: 18px;
+  margin:0 0 0 0;
+}
+h4{
+  margin: 15px 20px 0 0;
+  font-weight: bold;
+}
+h5{
+  font-size: 18px;
+  color: #FF6624;
+  font-weight: normal;
+  margin: 10px 0 0 0;
+}
+h6{
+  margin: 2px 0 0 0;
+  font-weight: normal;
+}
+p{
+  margin: 0 0 1.25rem 0;
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: inherit;
+}
+iframe{
+  border: 0px;
+}
+/*Table formatting************************************/
+table{
+  border-spacing:0px;
+  text-align: center;
+  font-weight: bold;
+  text-align:left;
+  min-height: 70px;
+  margin: 0 0 0 20px;
+}
+td{
+  padding: 0 0 0 0;
+}
+/*List formatting************************************/
+ul{
+  padding: 20px 5px 20px 5px;
+}
+.nav_bar_ul{
+  display: inline-block;
+}
+/*Image formatting************************************/
+img{
+  vertical-align: middle;
+  border: 0;
+  height: auto;
+  max-width: 100%;
+}
+/*Floating formatting************************************/
+.Right_content{
+  float: right;
+}
+.Left_content{
+  float: left;
+}
+/*Header Formatting*********************************/
+#header {
+  top: 0;
+  margin:0;
+  position: relative;
+  width: auto;
+  background: url("Team_Pic.jpg") no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+#mail_icon, #facebook_icon, #twitter_icon {
+  color: black;
+  text-decoration: none;
+  height: 30px;
+  width: 30px;
+  padding: 10px 0px 5px 0px;
+}
+#mail_icon {
+  padding: 10px 0px 5px 10px;
+}
+#team_name{
+  height: 100px;
+  width: auto;
+  font-size: 75pt;
+  margin-top: 150px;
+  margin-bottom: 25px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #fff;
+}
+#team_location{
+  height: 50px;
+  width: auto;
+  font-size: 25pt;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #fff;
+}
+#team_name.small{
+  margin-top: 50px;
+}
+#team_location.small{
+  margin-top: 130px;
+}
+/*Navagation Bar Formatting*********************************/
+header{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: #202020;
+  font-family: 'PT Sans', sans-serif;
+  list-style: none;
+  display: block;
+  height: auto;
+  padding: 0;
+  font-size: 25px;
+}
+header.sticky {
+  position:fixed;
+  background: #202020;
+  text-align: center;
+  padding-left: 20px;
+  top: 0;
+  transition: all 1s ease;
+}
+ul.small{
+  padding: 20px 20px 20px 20px;
+}
+.nav_bar_text{
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: yellow;
+  text-decoration: none;
+}
+#nav_bar_collapse{
+  margin: 0 0 0 0;
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: yellow;
+  text-decoration: none;
+}
+/*Row formatting*********************************/
+.row{
+  margin: auto;
+  max-width: 62.5rem;
+  min-height: 240px;
+  display: block;
+  height: auto;
+}
+.row.sticky{
+  margin: 1em 4em 4em 4em;
+  min-width: 740px;
+  min-height: auto;
+}
+.section_header{
+  margin: auto;
+  max-width: 62.5rem;
+  min-height: auto;
+  display: block;
+  height: auto;
+  text-align: center;
+  color: #561234;
+}
+.section_header_dark{
+  margin: auto;
+  max-width: 62.5rem;
+  min-height: auto;
+  display: block;
+  height: auto;
+  text-align: center;
+  color: yellow;
+}
+.section_header_purple{
+  margin: auto;
+  max-width: 62.5rem;
+  min-height: auto;
+  display: block;
+  height: auto;
+  text-align: center;
+  color: #E1E6FA;
+}
+/*About Us formatting*********************************/
+#About {
+  height: auto;
+  min-height: 420px;
+  top: 0;
+  padding: 0 0 15px 20px;
+  width: auto;
+  background: #000080;
+  margin: 0 auto;
+}
+#About_us{
+  float: right;
+  max-width: 400px;
+  font-size: 1em;
+  margin: 0 auto;
+  min-height: 22px;
+  color: #fff;
+}
+a.About_us{
+  color: #fff;
+  font-size: 1em;
+  margin-top: 3px;
+}
+#team_logo{
+  padding-top: 0px;
+}
+#team_logo.sticky{
+  margin-left: 0px;
+}
+/*First formatting*********************************/
+#First {
+  height: auto;
+  top: 0;
+  padding: 10px 0 10px 10px;
+  width: auto;
+  background: #777696;
+  margin: 0 auto;
+}
+#First.sticky{
+  min-height: 550px;
+}
+#First_content{
+  float: right;
+  border: 0px;
+  padding: 0 10px 0 10px;
+}
+#First_content.sticky{
+  float: left;
+  border: 0px;
+  padding: 0 10px 0 10px;
+}
+.First_explan{
+  float: left;
+  max-width: 400px;
+  font-size: 14px;
+  margin: 0;
+  min-height: 22px;
+  color: white;
+}
+.First_explan.sticky{
+  max-width: 750px;
+}
+a.First_explan{
+  font-size: 14px;
+  margin-top: 3px;
+}
+/*Sponsors formatting*********************************/
+#Sponsors {
+  height: auto;
+  top: 0;
+  padding: 20px 0 15px 20px;
+  width: auto;
+  background: #f5f5f5;
+  margin: 0 auto;
+}
+/*Mentors formatting*********************************/
+#Mentors {
+  height: auto;
+  top: 0;
+  padding: 20px 0 15px 20px;
+  width: auto;
+  background: #000080;
+  margin: 0 auto;
+}
+.mentor_row{
+  margin: auto;
+  max-width: 62.5rem;
+  min-height: 200px;
+  display: block;
+  height: auto;
+}
+.img_square_3{
+  display: block;
+  max-width: 100%;
+  height: 142px;
+  text-align: center;
+  margin: 0 auto;
+}
+.img_circle_3{
+  border-radius: 50%;
+  display: block;
+  max-width: 100%;
+  height: 142px;
+  text-align: center;
+  margin: 0 auto;
+}
+.img_mentor{
+  border-radius: 50%;
+  display: block;
+  max-width: 100%;
+  height: 142px;
+  margin: 0 auto;
+  float: left;
+}
+.img_circle_2{
+  border-radius: 50%;
+  display: block;
+  max-width: 100%;
+  height: 142px;
+  text-align: center;
+  margin: 0 auto auto auto;
+}
+.name_2{
+  font-size: 25px;
+  margin: 10px 0 2px;
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+  padding: 0 30px 0 0;
+}
+.name_3{
+  font-size: 25px;
+  margin: 10px 0 2px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+}
+.col_md_2{
+  width: 20%;
+  float: left;
+  min-height: 1px;
+  padding: 50px 15px 50px 15px;
+}
+.col_md_3{
+  width: 30%;
+  float: left;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
+.col_md_3.small{
+  width: 29%;
+  float: left;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
+/*Volunteers formatting*********************************/
+#Volunteers {
+  height: auto;
+  top: 0;
+  padding: 20px 0 15px 20px;
+  width: auto;
+  background: #E1E6FA;
+  margin: 0 auto;
+}
+/*Community formatting*********************************/
+#Community {
+  height: auto;
+  top: 0;
+  padding: 20px 0 15px 20px;
+  width: auto;
+  background: #777696;
+  margin: 0 auto;
+}
+.Community_explan{
+  text-align: left;
+  max-width: 450px;
+  font-size: 1em;
+  margin: 0;
+  min-height: 22px;
+  color: white;
+}
+/*Mentors Special Page Formatting****************************************/
+.mentors_explan {
+  padding: 5px 0 0 150px;
+  width: auto;
+}
+/*First Special Page Formatting****************************************/
+#First_games {
+  height: auto;
+  top: 0;
+  padding: 20px 0 15px 20px;
+  width: auto;
+  background: #E1E6FA;
+  margin: 0 auto;
+}
+#First_current_game {
+  height: auto;
+  top: 0;
+  padding: 20px 0 15px 20px;
+  width: auto;
+  background: #123456;
+  margin: 0 auto;
+}
+.First_games_explan {
+  font-size: 14px;
+}
+/*Contact formatting*********************************/
+#Contact {
+  height: auto;
+  top: 0;
+  padding: 20px 0 15px 20px;
+  width: auto;
+  background: #E1E6FA;
+  margin: 0 auto;
+}
+#map-canvas{
+  height: 500px;
+  width: auto;
+}
+#Meeting{
+    height: auto;
+    top: 0;
+    padding: 0 0 15px 20px;
+    width: auto;
+    background: #123456;
+    margin: 0 auto;
+}
+#Meeting_about{
+  max-width: 400px;
+  font-size: 1.2em;
+  margin: 0 auto;
+  min-height: 22px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#row_meetings{
+  margin: auto;
+  max-width: 62.5rem;
+  display: block;
+}
+/*Not actually being used yet footer formatting*/
+#footer {
+  height:45px;
+  position: relative;
+  width: auto;
+  background: #f5f5f5;
+  text-align: right;
+  padding: 15px 20px 0 0;
+}
+/*Media formatting*********************************/
+@media (max-width: 600px) {
+
+	#about img {
+ 		margin-bottom: 1em;
+	}
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 0;
+  height: 50%;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+}
